@@ -1,0 +1,145 @@
+* {
+	font-family: Helvetica;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	width: 100%;
+}
+
+/* Header section */
+
+.logo {
+	height: 50px;
+}
+
+header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	background-color: black;
+	z-index: 1000;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px 0 10px;
+	flex-grow: 1;
+}
+
+ul {
+	opacity: 0.9;
+	color: seashell;
+	text-decoration: underline;
+	list-style: none;
+	display: flex;
+}
+
+li {
+	padding: 10px;
+}
+
+a {
+	color: seashell;
+}
+
+/* Hero Section */
+
+.hero {
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 69px;
+	display:flex;
+	align-items: center;
+}
+
+article {
+	background-color: black;
+	color: seashell;
+	text-align: center;
+	width: 100%;
+}
+
+/* Gallery section */
+
+section {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	justify-content: center;
+}
+
+.heading {
+	color: seashell;
+	width: 100%;
+	text-align: center;
+	margin-top: 69px;
+}
+
+figure img {
+	height: 200px;
+	width: 300px;
+	margin: -25px;
+}
+
+figcaption {
+	color: seashell;
+	margin-top: 35px;
+	text-align: center;
+}
+
+/* Locations Section */
+
+.locations {
+	width: 1200px;
+	height: 500px;
+	padding-top: 70px;
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-position: center;
+	margin: 0 auto;
+}
+
+.flex-container-locations {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.location {
+	opacity: 1;
+	padding: 5px;
+	margin: 5px 20px;
+	background-color: black;
+	flex-basis: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	color: seashell;
+	align-items: center;
+}
+
+.locations h1 {
+text-align: center;
+margin-bottom: 15px;
+font-weight: bold;
+color: seashell;
+}
+
+/* footer Section */
+
+.contact {
+	color: seashell;
+	text-align: center;
+	height: 200px;
+}
+
+.copyright {
+	color: seashell;
+	margin: 20px;
+}
