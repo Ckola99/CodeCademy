@@ -17,4 +17,4 @@ This program requires the latest version (v.1.88.1) of Visual Studio Code. Make 
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](./LICENSE)
